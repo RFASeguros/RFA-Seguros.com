@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RFA Seguros</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="menu-btn2"></div>
+    </header>
+
+    <nav style="position: sticky; top: 0; z-index: 999">
+      <div class="logo">RFA Seguros</div>
+      <input type="checkbox" id="click" />
+      <label onclick="sidemenu()" for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="https://rfa.pt" target="blank">Sobre nós</a></li>
+        <li><a href="#contactos">Contactos</a></li>
+      </ul>
+    </nav>
+
+    <section class="home" id="#home">
+      <video
+        class="video-slide active"
+        src="assets/Slides.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="content active">
+        <h1>RFA<br /><span>Learn from the best</span></h1>
+        <p>
+          Quais os tipo de seguro que existem ? <br />
+          Que riscos são segurados?<br />
+          Existem restrição da cobertura?<br />
+          Mas afinal o que é um seguro ???<br />
+          Na RFAseguros podemos explicar estas perguntas e muitas mais.
+        </p>
+        <a href="./wp.html" class="btnRM">Read More</a>
+      </div>
+
+      <div class="media-icons">
+        <a
+          href="https://pt-pt.facebook.com/pg/RFA.PT/posts/?ref=page_internal"
+          target="blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/rfa.pt/" target="blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://pt.linkedin.com/company/rfa-academy---rfaconsulting"
+          target="blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer id="contactos">
+      <div class="main-content">
+        <div class="left box">
+          <h2>Sobre nós</h2>
+          <div class="content">
+            <p>
+              Fundada em 2010, a RFA procura através da sua academia responder
+              de forma positiva às reais necessidades do mercado de trabalho.
+            </p>
+            <div class="social">
+              <a
+                href="https://pt-pt.facebook.com/pg/RFA.PT/posts/?ref=page_internal"
+                ><span class="fab fa-facebook-f"></span
+              ></a>
+              <a
+                href="https://pt.linkedin.com/company/rfa-academy---rfaconsulting"
+                ><span class="fab fa-linkedin"></span
+              ></a>
+              <a href="https://www.instagram.com/rfa.pt/"
+                ><span class="fab fa-instagram"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Localização</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Portugal, Gaia</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">22 712 4602</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">geral@rfaracademy.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact-nos</h2>
+          <div class="content">
+            <form action="mailto:geral@rfaracademy.com">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required style="color: white" />
+              </div>
+              <div class="msg">
+                <div class="text">Messagem *</div>
+                <input type="email" required style="color: white" />
+              </div>
+              <div class="btn">
+                <button style="color: white; font-size: large" class="submit">
+                  <spna class="preto">Enviar</spna>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
